@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <style>
+        header{
+            display: flex;
+            padding: 0px;
+            margin: 0px;
+            align-self:self-end;
+            justify-content: space-between;
+            text-align: center;
+            color: rgb(252, 252, 252);
+        }
+        .web{
+            display: flex;
+            margin: 0px 0px;
+            
+
+        }
+        .site ul{
+        display: flex;
+    direction: rtl;            /* تحويل الاتجاه كاملاً لليمين */
+    justify-content: flex-start; /* ستذهب العناصر تلقائياً لأقصى اليمين */
+    gap: 10px;
+    
+    padding: 0px;
+        margin: 10px 0 0 0;;
+    list-style: none;
+    width: 100%;
+
+        }
+        nav{
+            display: flex;
+    flex-direction: column; /* لجعل العنوان في سطر والقائمة في سطر تحتها */
+    align-items: flex-end;  /* لمحاذاة كل المحتويات (العنوان والقائمة) لأقصى اليمين */
+    width: 100%;
+        }
+
+        .site a{
+            text-decoration: none;
+            color: #ffffff;
+            padding: 0px 0px;
+            margin: 0px 0px;
+            
+        }
+        .web h1{
+            text-align: center;
+            margin: 0px;
+            padding: 0px;
+            color: rgb(249, 251, 252);
+        }
+        .web img{
+            padding: 0px;
+            margin: 0px;
+        }
+        
+        
+        
+            
+        
+        .limet {
+            opacity: 8%;
+        }
+    hr{
+        opacity: 10%;
+        padding: 0px;
+        margin: 0px;
+    }
+    body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    
+    /* دمج التدرج اللوني (بشفافية rgba) مع صورة الخلفية */
+    background: linear-gradient(to bottom, rgba(12, 12, 12, 0.8), rgba(55, 54, 54, 0.8)), 
+                url("https://imgs.search.brave.com/g54V8fu6FxuzyfB3DCC1DV5dq9wTxQnFQnGKwFVXdqk/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9ibG9n/Z2VyLmdvb2dsZXVz/ZXJjb250ZW50LmNv/bS9pbWcvYi9SMjl2/WjJ4bC9BVnZYc0Vq/bkJjc2tiWkFSS3I3/VXZZcFhVSlBCRUhp/QkllRm5kX1BHRnlT/TXpyaWUyaGdTX3Zv/VGV2TGh6aFB3VGkz/V0U2Uk9icFVIZUZk/RWtPaUdIVzBHcFFm/QTM5Z1BqQ3J0N2tS/akFLckVTQjJYdGwy/UEplaTZmTURHU2tw/QzM0bVV3NGdXekJa/U0dITVpNcHQ1NUVK/TlY4RldXZ0JRZFQ2/MXpzRkxlY1QwakU0/bUtUeGk1S1hLcVFq/QlBWdGgvczE2MDAw/LXJ3LyVEOCVCNSVE/OSU4OCVEOCVCMS0l/RDklODElRDglQUUl/RDklODUlRDglQTkt/JUQ5JTg0JUQ5JTg0/JUQ4JUFDJUQ5JTg4/JUQ4JUE3JUQ5JTg0/LmpwZw");
+    
+    /* ضبط أبعاد الصورة لتغطي الشاشة بالكامل وتتوسطها */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+p{
+    color: aliceblue;
+}
+h3{
+    color: white;
+}
+h2{
+    color: white;
+}
+footer{
+    color: white;
+    text-align: center;
+    background-color: rgb(63, 37, 37);
+    padding: 0px 0px;
+    margin: 0px 0px;
+}
+table{
+    color: white;
+    background-color: rgb(50, 117, 107);
+}
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>موقع شخصي</title>
+</head>
+<body>
+    <header>
+        <div class="website">
+        <div class="web">
+            <img src="https://imgs.search.brave.com/0bERnCHPSFVTyU6I3g90BZ6oHq8dA_h8FTBmVK80cU4/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9uYWZl/emx5LXByb2R1Y3Rp/b24uZnJhMS5jZG4u/ZGlnaXRhbG9jZWFu/c3BhY2VzLmNvbS91/cGxvYWRzL3NlcnZp/Y2VzL3NtYWxsLzUx/NV81ZWQzYWNkN2M5/ODk1LTE1OTA5MzA2/NDcuanBn" alt="صور للغو الموقع" width="224px">
+    <h1>مرحبا بكم في موقعنا الشخصي لختبار تجاوز لغةHTML</h1>
+    </div>
+    <nav>
+    <div class="site">
+        <ul>
+            <li><a href="index.html">الرئيسة</a></li>
+            <li><a href="about_me.html">عني</a></li>
+            <li><a href="project.html">المشاريع</a></li>
+            <li><a href="notice.html">المدونة</a></li>
+            <li><a href="contact.html">التواصل</a></li>
+            <li><a href="#">الاسئلة الشائعة</a></li>
+        </ul>
+
+    </div>
+    </nav> 
+    </div>
+    </header>
+<hr class="limet">
+    <main>
+    <section>
+        <h2>ماهي البرمجة الful-stack</h2>
+        <article>
+            <img src="https://imgs.search.brave.com/IQcjQE4GNhCJYXzEo1-vh66c7gY0FJN3IMZJ0lV8r80/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly90My5m/dGNkbi5uZXQvanBn/LzAzLzM1Lzg2LzE0/LzM2MF9GXzMzNTg2/MTQzMV9iaGQ4S1pH/ZnlTbDhHYXpFMklK/Z3BPTWpJRjdOcWVv/SC5qcGc" alt="صور اللغات البرمجه الثلاث html,css,js", width="280" >
+            <p>تُعد برمجة الـ Full-Stack باستخدام HTML وCSS وJavaScript فقط مساراً ممكناً للمبتدئين وللمشاريع الصغيرة، حيث تشكل هذه اللغات الثلاث العمود الفقري لتطوير الويب؛ فـ HTML تبني الهيكل، وCSS تنسق المظهر، بينما تتولى JavaScript إدارة التفاعل والمنطق داخل المتصفح. ومع ذلك، فإن الاعتماد عليها وحدها يقتصر عملياً على تطوير الواجهة الأمامية (Front-End) أو المواقع الثابتة، لأن مفهوم الـ Full-Stack الحقيقي يتطلب وجود جانب خلفي (Back-End) للتعامل مع قواعد البيانات، والمصادقة، ومنطق الخادم، وهو ما لا يمكن تحقيقه بـ JavaScript وحدها في المتصفح إلا باستخدام بيئة تشغيل مثل Node.js التي تسمح بتشغيل JavaScript على الخادم. لذا، فإن المسار الكامل ليصبح المطور "Full-Stack" فعلياً باستخدام عائلة JavaScript فقط (المعروف بـ MERN أو MEAN Stack) يستلزم تعلم Node.js بالإضافة إلى اللغات الثلاث الأساسية، مما يتيح بناء تطبيقات ديناميكية كاملة من الواجهة إلى قاعدة البيانات دون الحاجة لتعلم لغات خلفية أخرى مثل Python أو PHP. 
+
+
+Full stack development with HTML CSS JavaScript and Node.js
+
+
+
+
+
+View all
+Elaborate
+ما هي أفضل قاعدة بيانات للمشاريع الصغيرة؟
+كيف يسهل Node.js إدارة الخوادم؟
+ما الفرق بين MERN و MEAN؟
+
+
+
+
+
+
+</p>
+        </article>
+
+    </section>
+    <hr>
+    <section>
+        <h2>قسم الخدمات</h2>
+        <article>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRaTaf60B-6LIxkj547-QmyQ2PdRKksPfr4fRE2JYfsiw&s=10" alt='صور لقسم خدماتنا' , width="280">
+            <table border="4">
+                <span class="limeted"><b>جدول الخدمات البرمجية</b></span>
+                <thead>
+                    <tr>
+                        <th>الخدمة </th>
+                        <th>السعر</th>
+                        <th>مدة العمل او التسليم</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>تصميم موقع html,cssفقط</td>
+                        <td>200 to 300$</td>
+                        <td> ثلاثة ايامto خمسة</td>
+                    </tr>
+                  <tr>
+                    
+                    
+                    
+                        <td>تصميم موقع كامل(html,css,js)</td>
+                        <td>700 to 850$</td>
+                        <td>اسبوعين الي اسبوعين ونص حسب الموقع</td>
+
+                    </tr>
+                    <tr>
+                        <td>تصميم هيكل احترافيhtml</td>
+                        <td>150 to 200$</td>
+                        <td>يومين to ثلاثة</td>
+                    </tr>
+                </tbody>
+            </table>
+
+        </article>
+    </section>
+<hr>
+<section class="the last">
+    <h2>قسم آخر المشاريع</h2>
+    <article>
+        <p>"نفخر في سجل أعمالنا بتنفيذ مجموعة من المشاريع الرقمية المتطورة لشركات رائدة وقطاعات حيوية<b>، حيث قمنا مؤخراً بتسليم منصة تجارة إلكترونية معقدة تعتمد على معمارية برمجية مرنة،</b> وربطها بأنظمة دفع ذكية وإدارة مخزون لحظية. شملت تعاقداتنا الأخيرة تطوير بوابات تفاعلية للشركات المؤسسية تدمج واجهات مستخدم ديناميكية (Dynamic UI) مع لوحات تحكم إدارية شاملة، مما ساهم في رفع كفاءة العمليات الرقمية لعملائنا بنسب قياسية. نعتز بثقة الشركاء الاستراتيجيين الذين أوكلوا إلينا بناء بنيتهم التحتية الويب، من خلال حلول برمجية قابلة للتوسع تجمع بين الأداء العالي، والأمان السيبراني، وتجربة مستخدم استثنائية تعكس أحدث معايير التطوير العالمية."
+
+</p>
+    </article>
+</section>
+<hr>
+<section>
+    <h2>قسم اراء العملاء</h2>
+    <h3>"أشاد الشركاء الاستراتيجيون الذين تعاقدنا معهم بالدقة المتناهية في تنفيذ المشاريع، مؤكدين أن الحلول البرمجية التي قدمناها تجاوزت توقعاتهم من حيث الأداء القوي وسرعة الاستجابة. أكد مدير التقنية في إحدى شركات التجارة الإلكترونية أن المنصة التي طوّرها فريقنا ساهمت في رفع معدل التحويل بنسبة 40% بفضل واجهاتها السلسة ونظام إدارة المخزون الفعّال، واصفاً التعاون بأنه 'شراكة حقيقية تجاوزت مجرد تنفيذ كود'. كما عبّرت شركات مؤسسية أخرى عن امتنانها للالتزام الصارم بالجداول الزمنية والدعم الفني المستمر بعد التسليم، مشيرين إلى أن البنية التحتية التي بنيناها وفرت عليهم تكاليف صيانة ضخمة وضمنت استقراراً أمنياً عالي المستوى، مما جعلهم يوصون بنا كشريك تقني موثوق للمشاريع الحيوية."
+
+</h3>
+</section>
+
+
+    </main>
+    <hr>
+    <footer>جميع الحقوق محفوظة &copy;2026</footer>
+    
+</body>
+</html>
